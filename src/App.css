@@ -76,7 +76,7 @@ nav
 
 nav ul{
   position: absolute;
-  bottom: 2%;
+  bottom: 12%;
   left: 5%;
   width: 90%;
   font-size:var(--fontsize-nav) ;
@@ -119,7 +119,7 @@ h2{
 }
 .abouthead{
   margin: 15px 10px;
-  font-size: 2.3rem;
+  font-size: 1.6rem;
 }
 h3{
   font-size: 1.4rem;
@@ -138,6 +138,7 @@ h4{
   top: 50%;
   left: 45%;
 }
+
 .sk{
   position: absolute;
   top: 65%;
@@ -173,12 +174,6 @@ h4{
   left: 75%;
 }
 
-.inn1{
-  margin-top: 45px;
-}
-.inn2{
-  margin-top: 80px;
-}
 .social
 {
   width: 50%;
@@ -228,58 +223,6 @@ h4{
   background-color: #ffffff80;
   font-weight: bolder;
 }
-.port_out{
-  position: absolute;
-  width: 38%;
-  height: 30%;
-}
-.port_out:hover{
-  background-color: #ffffff80;
-}
-.port1{
-  top: 18%;
-  left: 10%;
-}
-.port2{
-  top: 18%;
-  left: 53%;
-}
-.port3{
-  top: 58%;
-  left: 10%;
-}
-.port4{
-  top: 58%;
-  left: 53%;
-}
-
-.po1{
-  width: 96%;
-  height: 93%;
-  margin: 2% 2%;
-  border-radius: 10px;
-}
-.line3{
-  position: absolute;
-  top: 70%;
-  left: 45%;
-}
-.inner3{
-  margin: 3px 15px;
-  background: rgba(245, 108, 109,1);
-  width: 30px;
-  height: 5px;
-  border-radius: 5px;
-}
-.con_out{
-  position: absolute;
-  width: 88%;
-  top: 13%;
-  left: 6%;
-}
-.con_out:hover{
-  background-color: #ffffff80;
-}
 .co1{
   width: 99%;
   height: 99%;
@@ -296,37 +239,7 @@ h4{
   font-size: 22px;
   cursor: pointer;
 }
-.back1{
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 4%;
-  right: 2%;
-  font-size: 22px;
-  cursor: pointer;
-}
-.back1:hover{
-  background-color: #ffffff80;
-}
-.i1{
-   position: absolute;
-   top: 13px;
-   left: 15px;
-}
-.i2{
-  color: #ffffffbf;
-  padding-right: 10px;
-}
-.i3{
-  color: rgba(245, 108, 109,1);
-}
-.back2{
-  top: 55%;
-  left: 4%;
-  z-index: 1;
-  background-color: #ffffffbf;
-  border-radius: 10px;
-}
+
 .back3{
   width: 210px;
   height: 25px;
@@ -363,9 +276,7 @@ h4{
   {
     padding: 30px;
   }
-  .back1{
-    right: 5%;
-  }
+
   nav
   {
     width: 90%;
@@ -401,13 +312,7 @@ h4{
   .p10{
     display: none;
   }
-  .back2{
-    top: 27%;
-  }
-  .vr_line{
-    top: 30.5%;
-    left: 10.5%;
-  }
+
   h3{
     margin-top: 25px;
   }
@@ -439,14 +344,7 @@ h4{
   .subtopic{
   margin: 10px!important;
   }
-  .con_out{
-    width: 88%;
-    height: 20%;
-  }
-  .con_in{
-    width: 94%;
-    height: 88%;
-  }
+
   .back3{
     top: 44%;
     left: 19%;
@@ -455,30 +353,7 @@ h4{
     top: 54%;
     left: 19%;
   }
-  .line2{
-    margin: 1px 120px;
-  }
-  .inner2{
-    margin: 15px;
-  }
-  .port_out{
-    width: 80%;
-    height: 26%;
-  }
-  .port1{
-    top: 12%;
-  }
-  .port2{
-    left: 10%;
-    top: 42%;
-  }
-  .port3{
-    display: none;
-  }
-  .port4{
-    top: 72%;
-    left: 10%;
-  }
+
   .social
   {
     width: 90%;

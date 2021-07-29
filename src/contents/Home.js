@@ -8,7 +8,7 @@ export default function Home() {
         <div className="condiv home">
         <h1><Text tid="name" /></h1>
         <p><Text tid="prof"/></p>
-        <h5>It's just a template for now...</h5>
+        <h5>This is my portfolio site and it's just a template for now...</h5>
         <Social />
         </div>
         )

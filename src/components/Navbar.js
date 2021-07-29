@@ -25,7 +25,6 @@ export default function Navbar() {
         <Navitem item="Home" tolink="/"  activec={activeitem}></Navitem>
         <Navitem item=<Text tid="aboutme"/> tolink="/about"  activec={activeitem}></Navitem>
         <Navitem item=<Text tid="portfolio"/> tolink="/portfolio"  activec={activeitem}></Navitem>
-        <Navitem item=<Text tid="contact"/> tolink="/contact"  activec={activeitem}></Navitem>
         </ul>
         </nav>
     )
