@@ -1,8 +1,11 @@
 {
-	"resume": "Скачать Резюме",
-	"contact": "Связаться",
 	"name": "Анна Водимед",
-	"prof": "Javascript кодер.разраб",
-	"about": "ctзлвогнпрук9опрек шетреноащорьектвшн реш ешнорушh",
-	"aboutme": "Обо мне"
+	"specialization": "< Web Developer />",
+	"home": "Главная",
+	"home-description": "Что-то вроде сайта визитки, пока тут пусто...",
+	"aboutme": "Обо мне",
+	"aboutme-head": "Навыки & Знания, а также Стремления и все такое",
+	"portfolio-description": "в процессе заполнения...",
+	"portfolio-head": "Пет проекты",
+	"portfolio": "Портфолио"
 }

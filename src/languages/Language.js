@@ -13,8 +13,8 @@ export function LanguageProvider({children}) {
     	userLanguage,
     	dictionary: dictionaryList[userLanguage],
     	userLanguageChange: selected => {
-    		const newLanguage = languageOptions[selected] ? selected : 'en'
-            setUserLanguage(newLanguage)
+    		const selectedLanguage = languageOptions[selected] ? selected : 'en'
+            setUserLanguage(selectedLanguage)
     	}
     }
     return (

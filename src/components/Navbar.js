@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Text, LanguageContext } from '../languages/Language';
+import { Text } from '../languages/Language';
 import Navitem from './Navitem';
 import profilepic from '../img/profile_photo.jpg';
 
@@ -20,9 +20,9 @@ export default function Navbar() {
         <nav className="glass">
         <img src={profilepic} className="profilepic"></img>
         <h2><Text tid="name" /></h2>
-        <p>Full Stack Developer</p>
+        <p><Text tid="specialization" /></p>
         <ul>
-        <Navitem item="Home" tolink="/"  activec={activeitem}></Navitem>
+        <Navitem item=<Text tid="home"/> tolink="/"  activec={activeitem}></Navitem>
         <Navitem item=<Text tid="aboutme"/> tolink="/about"  activec={activeitem}></Navitem>
         <Navitem item=<Text tid="portfolio"/> tolink="/portfolio"  activec={activeitem}></Navitem>
         </ul>

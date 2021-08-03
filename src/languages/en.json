@@ -1,8 +1,12 @@
 {
-	"resume": "Download Resume",
-	"contact": "Contact",
 	"name": "Anna Vodimed",
-	"prof": "JavaScript Full Stack Developer",
-	"about": "ctcydyefvy fvyergugruegh dhfrygerygtygerug fhvryhuerufd rh",
-	"aboutme": "About me"
+	"specialization": "< Web Developer />",
+	"home": "Home",
+	"home-description": "This is a portfolio site and it's just in progress for now...",
+	"aboutme": "About me",
+	"aboutme-head": "My Skills & Knowlages",
+	"portfolio-description": "in progress...",
+	"portfolio-head": "Some of My Projects",
+	"portfolio": "Portfolio"
 }
+

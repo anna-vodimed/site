@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react';
 import { languageOptions } from '../languages';
 import { LanguageContext } from '../languages/Language';
 
+//language selector button
 export default function LanguageSelector() {
 	const {userLanguage, userLanguageChange} = useContext(LanguageContext)
 	const handleLanguageChange = e => {
@@ -10,14 +11,14 @@ export default function LanguageSelector() {
   
 	return (
     <div>
-      <div class="bac"
+      <div class="lang-select"
       onClick={handleLanguageChange}
       value={userLanguage}
       >
-      <select name="countries">
-      {Object.entries(languageOptions).map(([id, name]) => (
+      <select flag="countries">
+      {Object.entries(languageOptions).map(([id, flag]) => (
         
-        <option key={id} value={id}>{name}</option>
+        <option key={id} value={id}>{flag}</option>
       
 
       ))} 
