@@ -1,7 +1,7 @@
 ## Description
 
-Portfolio web site written with react. 
-Also the language selection feature was created using the React Context API and UseContext Hook.
+Portfolio web site written with react. According to react developers recommendations, this application is implemented in function components and hooks.
+The language selection feature was created using the React Context API and UseContext Hook.
 
 
 
