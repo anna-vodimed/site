@@ -6,9 +6,9 @@ import {
 } from "react-router-dom";
 
 import Navbar from './components/Navbar';
-import Home from './contents/Home';
-import About from './contents/About';
-import Portfolio from './contents/Portfolio';
+import Home from './pages/Home';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
 
 import { LanguageProvider } from "./languages/Language";
 //lang select button
